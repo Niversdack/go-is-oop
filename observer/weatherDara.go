@@ -16,7 +16,7 @@ func NewWeatherData() WeatherData {
 		observers: new([]observer),
 	}
 }
-upload_seq
+
 func (d WeatherData) GetTemperature() int {
 	return rand.Int()
 }
